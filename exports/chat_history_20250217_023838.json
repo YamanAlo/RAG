@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "Hi"
+  },
+  {
+    "role": "assistant",
+    "content": "It looks like you 're looking for information about universities and majors in the context of a Master 's Degree . I 'd be happy to help ! To get started , can you please tell me what specific information you 're looking for ? Are you interested in learning more about a particular university or major ? Or perhaps you have questions about the Master 's program in general ? Also , I noticed that there are multiple universities listed with various majors . Would you like me to summarize the available options for you ?"
+  },
+  {
+    "role": "user",
+    "content": "list me the programs that are available in sharjah university\n"
+  },
+  {
+    "role": "assistant",
+    "content": "According to the provided documents , Shar jah University ( also known as American University of Shar jah and University of Shar jah ) offers the following Master 's degree programs : * Electrical Engineering * Computer Engineering * Computer Science * Electrical and Electronics Engineering * Artificial Intelligence * Data Science These programs are listed under the \" University Name \" section for both American University of Shar jah and University of Shar jah ."
+  },
+  {
+    "role": "user",
+    "content": "I want University of Sharjah only."
+  },
+  {
+    "role": "assistant",
+    "content": "According to the provided documents , University of Shar jah offers the following Master 's degree programs : * Computer Engineering * Computer Science * Electrical and Electronics Engineering * Artificial Intelligence * Data Science"
+  }
+]

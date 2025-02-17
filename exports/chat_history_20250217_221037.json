@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "list me the programs in uni of sharjah."
+  },
+  {
+    "role": "assistant",
+    "content": "According to the provided document , here are the master degree programs offered by the University of Shar jah : * Master Computer Engineering : ب وس اح لا ة سد نه * Master Computer Science : ب وس اح لا مول ع * Master Electrical and Electronics Engineering : و ة ي ئ اب ره ك لا ة سد نه لا ر ة ين وت كل ل إ ا * Master Artificial Intelligence : ع ان ط صل إ ا ء اك ذ لا * Master Data Science : ت ان اي ب لا مل ع Please note that this information is based on the provided document and might not be comprehensive or up -to -date ."
+  },
+  {
+    "role": "user",
+    "content": "احكيلي عن البرامج في حامعة الشارقة"
+  },
+  {
+    "role": "assistant",
+    "content": "ح س نا ً ! وفق ًا للم ست ند الم 제공 ، هناك بر امج م است ر في جامعة الش ار قة هي : * م اج ست ير هند سة الح اس وب : ب وس اح لا ة سد نه * م اج ست ير علوم الح اس وب : ب وس اح لا مول ع * م اج ست ير هند سة الكه رب اء والإ لك ت رو ن ات : و ة ي ئ اب ره ك لا ة سد نه لا ر ة ين وت كل ل إ ا * م اج ست ير الذ ك اء ال اص طن اعي : ع ان ط صل إ ا ء اك ذ لا * م اج ست ير علم البي انات : ت ان اي ب لا مل ع"
+  }
+]

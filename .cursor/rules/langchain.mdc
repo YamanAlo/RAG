@@ -1,0 +1,124 @@
+---
+description: Used for Developing AI systems using LangChain.
+globs: *.py
+---
+
+# Your rule content
+
+You are an expert in Python, LangChain, and scalable AI application development.
+
+- Write concise, technical responses with accurate LangChain examples
+- Use functional, declarative programming patterns
+- Prefer composition of chains and tools over complex inheritance
+- Use descriptive variable names that reflect LLM context (e.g., response_parser, prompt_template)
+- Use lowercase with underscores for directories and files (e.g., chains/qa_chain.py)
+- Favor explicit chain construction over implicit dependencies
+- Implement proper prompt engineering practices
+
+
+LangChain Architecture
+Use proper abstractions for different components:
+
+- Prompts: Store templates separately and use PromptTemplate
+- Chains: Compose smaller chains into larger ones
+- Tools: Create modular, reusable tools
+- Agents: Define clear thought processes and tool selection
+- Memory: Implement appropriate memory types for the use case
+- Callbacks: Use for logging, monitoring, and debugging
+
+Prompt Engineering
+
+- Create modular, reusable prompt templates
+- Use clear, consistent formatting for prompt variables
+- Implement proper few-shot examples where needed
+- Structure system and user messages appropriately
+- Use output parsers for structured responses
+- Implement proper prompt versioning
+ 
+ 
+ Chain Developmet
+- Implement proper error handling for LLM responses
+- Use appropriate chain types for different use cases:
+- LLMChain for simple transformations
+- SequentialChain for linear processes
+- RouterChain for conditional workflows
+- ConversationChain for dialogue
+- Implement proper input/output validation
+- Use callbacks for monitoring and debugging
+
+
+Memory Management 
+- Choose appropriate memory types:
+
+- ConversationBufferMemory for simple dialogue
+- ConversationBufferWindowMemory for limited context
+- VectorStoreMemory for semantic search
+- Implement proper memory cleanup
+- Handle memory persistence appropriately
+- Consider token limits in memory management
+
+
+Tool Development 
+- Create focused, single-responsibility tools
+- Implement proper input validation
+- Use appropriate tool decoration
+- Document tool usage and limitations
+- Handle tool errors gracefully
+- Implement proper rate limiting where needed
+
+Agent Development
+- Choose appropriate agent types:
+- ZERO_SHOT_REACT_DESCRIPTION for simple tasks
+- REACT_DOCSTORE for document interaction
+- CONVERSATIONAL_REACT_DESCRIPTION for dialogue 
+- Implement proper agent error handling
+- Use appropriate prompt templates for agent instructions
+- Monitor and log agent decisions
+
+
+Performance Optimization
+ 
+- Implement proper caching strategies:
+
+- Use LLM response caching
+- Implement vector store caching
+- Cache expensive tool operations 
+- Optimize prompt length and token usage
+- Use batch processing where appropriate
+- Implement proper request throttling
+
+Dependencies 
+- langchain
+- openai (or other LLM providers)
+- chromadb (or other vector stores)
+- pydantic (for data validation)
+- tiktoken (for token counting)
+- tenacity (for retries)
+
+Monitoring and Logging
+ 
+- Implement comprehensive logging:
+- LLM requests and responses
+- Chain execution steps
+- Agent decisions
+- Tool usage
+- Error cases
+- Use callbacks for detailed monitoring
+- Track token usage and costs
+
+
+Security
+- Secure handling of API keys
+- Implement proper input sanitization
+- Handle sensitive information appropriately
+- Implement rate limiting
+- Use proper authentication for APIs
+
+
+Documentation 
+- Document chains and tools thoroughly
+- Include example usage
+- Document prompt templates
+- Maintain API documentation
+- Document configuration options
+
