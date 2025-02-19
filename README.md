@@ -50,51 +50,10 @@ COHERE_API_KEY=your_cohere_api_key
 
 1. Start Ollama server locally
 
-2. Run the system:
-```python
-from main import RAGSystem
-
-# Initialize the system
-rag_system = RAGSystem()
-
-# Process documents
-documents = [
-    "path/to/your/document1.pdf",
-    "path/to/your/document2.pptx"
-]
-chunks = rag_system.process_documents(documents)
-
-# Initialize retriever
-rag_system.initialize_retriever(chunks)
-
-# Query the system
-question = "What is the main topic of the documents?"
-for response_chunk in rag_system.query(question):
-    print(response_chunk, end="")
-```
-
-## Project Structure
-
-```
-rag_system/
-├── config/
-│   └── config.py           # Configuration settings
-├── core/
-│   ├── document_processor/
-│   │   ├── pdf_processor.py
-│   │   └── ppt_processor.py
-│   ├── embedding/
-│   │   └── ollama_embeddings.py
-│   ├── retrieval/
-│   │   └── hybrid_retriever.py
-│   └── llm/
-│       └── chat_model.py
-├── utils/
-│   ├── logger.py
-│   └── timer.py
-├── main.py
-└── requirements.txt
-```
+2. Run this command
+   ```
+   python app.py
+   ```
 
 ## Performance Considerations
 
