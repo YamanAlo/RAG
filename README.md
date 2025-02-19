@@ -40,11 +40,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
-Create a `.env` file in the root directory with:
-```
-COHERE_API_KEY=your_cohere_api_key
-```
 
 ## Usage
 
